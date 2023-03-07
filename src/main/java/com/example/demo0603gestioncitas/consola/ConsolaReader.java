@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 @Controller
 public class ConsolaReader{
-    private CitaService citaService;
+    CitaService citaService;
 
     public ConsolaReader(CitaServiceImpl citaService) {
         this.citaService = citaService;
